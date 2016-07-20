@@ -1,7 +1,7 @@
 # Pokémon GO World Map
 Welcome, trainer. This is a colaborative Pokémon GO map tool created to help players find their favorite Pokémon location around the world.
 
-This tool will soon become a open source project. 
+This tool will soon become an open source project. 
 
 ---
 
