@@ -37,7 +37,7 @@ The map was built using the following technologies:
 
 # Getting Started
 
-1. Create a database called `pgo`.
+1. Create a database named `pgo`.
 1. Go to project's root and run `mysql -u[user] -p[pass] pgo < pgo-*.sql`
 2. Copy the environment file using `cp .env.dist .env`
 3. Edit the `.env` file according to your environment. No need to change keys.
