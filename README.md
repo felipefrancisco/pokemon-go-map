@@ -13,7 +13,11 @@ I appreciate if anyone can help on fixing the front end flaws and helping me imp
 # Pokémon GO World Map
 Welcome, trainer. This is a colaborative Pokémon GO map tool created to help players find their favorite Pokémon location around the world. You can access the website here: www.pokemon-map.com
 
-This tool will soon become an open source project. 
+You can contribute by creating a pull request to/ the `develop` branch.
+
+If you want to contribuite but don't know what to do, you can check the [https://github.com/felipefrancisco/pokemon-go-map/issues](issues) section, there you'll find bugs reported by users and `offcial tasks`. These official tasks are tasks that I had on my roadmap for new features, if you want to be responsible for any of these tasks, just show your interest commenting on the issue and I'll assign you to it.
+
+Also, any other pull request can be made, there's no need to follow a task to send new features to this project, any contribuition is completely appreciated :)
 
 ---
 
