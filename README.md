@@ -6,7 +6,7 @@ day. After that, I've spend lots of hours during the night developing like crazy
 new features, that's why things can look terrible (mostly on the front-end). I was planning to use AngularJS to control everything
 but the controllers are not following the rules of good development of angular for reasons that: I needed to create and fix things quickly, so, the first thing that solved the problem was ok for me at that moment HAHA.
 
-### That's why the front-end is so messy
+### That's why the front-end and database are so messy. This is far from what I consider to be good.
 
 The idea of going open source with this project is exactly to put everything on the right place and keeping the project alive.
 Any questions, feel free to open an [issue](https://github.com/felipefrancisco/pokemon-go-map/issues), I'll be happy to help.
