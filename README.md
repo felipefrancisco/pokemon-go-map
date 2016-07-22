@@ -6,18 +6,20 @@ day. After that, I've spend lots of hours during the night developing like crazy
 new features, that's why things can look terrible (mostly on the front-end). I was planning to use AngularJS to control everything
 but the controllers are not following the rules of good development of angular for reasons that: I needed to create and fix things quickly, so, the first thing that solved the problem was ok for me at that moment HAHA.
 
-I appreciate if anyone can help on fixing the front end flaws and helping me improve this map even more :)
+I would appreciate if people could help on refactoring the front-end and helping me improve this map even more :)
 
 ---
 
 # Pokémon GO World Map
 Welcome, trainer. This is a colaborative Pokémon GO map tool created to help players find their favorite Pokémon location around the world. You can access the website here: www.pokemon-map.com
 
-You can contribute by creating a pull request to/ the `develop` branch.
+You can contribute by submitting a pull request to the `develop` branch with a small changelog.
 
 If you want to contribuite but don't know what to do, you can check the [issues](https://github.com/felipefrancisco/pokemon-go-map/issues) section, there you'll find bugs reported by users and `offcial tasks`. These official tasks are tasks that I had on my roadmap for new features, if you want to be responsible for any of these tasks, just show your interest commenting on the issue and I'll assign you to it.
 
-Also, any other pull request can be made, there's no need to follow a task to send new features to this project, any contribuition is completely appreciated :)
+Also, any other pull request can be submitted, there's no need to follow a task to send new features to this project, any contribuition is completely appreciated :)
+
+When creating or changing any features, this project has an average of 15-35k visitors daily with peaks of 300-400 simultaneous visitors during the day. 
 
 ---
 
@@ -26,4 +28,16 @@ The map was built using the following technologies:
 - Laravel 5.1
 - Google Maps API v3
 - MySQL 5.7.13
-- Memcached
+- Memcached/Memcache
+
+---
+
+# Getting Started
+
+1. Create a database called `pgo`.
+1. Go to project's root and run `mysql -u[user] -p[pass] pgo < pgo-*.sql`
+2. Copy the environment file using `cp .env.dist .env`
+3. Edit the `.env` file according to your environment. No need to change keys.
+4. `composer install`
+5. Check if Memcached/Memcache is running.
+6. Have fun.
