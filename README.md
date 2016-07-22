@@ -1,6 +1,6 @@
-**DISCLAIMER**
+  **READ BEFORE ANYTHING**
 
-This project's core functionality was first developed within a 4-5 hours, from 1AM to 5-6AM of July 12st, I made this map tool
+This project's core functionality was first developed within a 4-5 hours, from 1AM to 5-6AM of July 11st, I made this map tool
 just because I love Pokémon, but things got out of control and after 3 days of go live, the map was receiving 30k visitors per
 day. After that, I've spend lots of hours during the night developing like crazy to get things working properly and creating 
 new features, that's why things can look terrible (mostly on the front-end). I was planning to use AngularJS to control everything
