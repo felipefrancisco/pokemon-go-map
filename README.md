@@ -44,3 +44,6 @@ The map was built using the following technologies:
 4. `composer install`
 5. Check if Memcached/Memcache is running.
 6. Have fun.
+
+
+**IMPORTANT:** Any changes on the JS files must be compiled before testing. I had no time to setup the gulp task, so you can compile the js files by accessing the compile route, just check the `routes.php` file to see what's the compile url to be accessed.
