@@ -300,6 +300,7 @@ class ApiController extends Controller
             if(!$user)
                 throw new \Exception('invalid user');
 
+
             # try to get uuid
             $uuid = $request->get('uuid');
 
@@ -309,6 +310,10 @@ class ApiController extends Controller
             # if invalid
             if(!$marker)
                 throw new \Exception('invalid marker');
+
+
+            if($user->id != $marker->user_id)
+                throw new Exception('xx');
 
             # delete marker
             $marker->delete();

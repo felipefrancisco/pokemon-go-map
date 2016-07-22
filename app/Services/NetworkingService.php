@@ -98,7 +98,7 @@ class NetworkingService
             if(!$ipCountry) {
 
                 # if not, get the country's data
-                $country = Country::where('country_code',$output->geoplugin_countryCode)->first();
+                $country = \App\Country::where('country_code',$output->geoplugin_countryCode)->first();
 
                 # create the ip location object
                 $ipCountry = new IpCountry();
