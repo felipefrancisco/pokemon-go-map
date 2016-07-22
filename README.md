@@ -8,7 +8,8 @@ but the controllers are not following the rules of good development of angular f
 
 ### That's why the front-end is so messy
 
-I would appreciate if people could help on refactoring the front-end and helping me improve this map even more :)
+The idea of going open source with this project is exactly to put everything on the right place and keeping the project alive.
+Any questions, feel free to open an [issue](https://github.com/felipefrancisco/pokemon-go-map/issues), I'll be happy to help.
 
 ---
 
