@@ -22,7 +22,7 @@ If you want to contribuite but don't know what to do, you can check the [issues]
 
 Also, any other pull request can be submitted, there's no need to follow a task to send new features to this project, any contribuition is completely appreciated :)
 
-When creating or changing any features, this project has an average of 15-35k visitors daily with peaks of 300-400 simultaneous visitors during the day. 
+When creating or changing any features, this project has an average of 15-35k visitors daily with peaks of 300-400 simultaneous visitors during the day.
 
 ---
 
@@ -44,6 +44,5 @@ The map was built using the following technologies:
 4. `composer install`
 5. Check if Memcached/Memcache is running.
 6. Have fun.
-
 
 **IMPORTANT:** Any changes on the JS files must be compiled before testing. I had no time to setup the gulp task, so you can compile the js files by accessing the compile route, just check the `routes.php` file to see what's the compile url to be accessed.
