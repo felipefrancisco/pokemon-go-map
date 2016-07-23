@@ -2,7 +2,7 @@ app.controller('MapController', ['$rootScope', '$scope', '$http', '$timeout', 'I
     'use strict';
 
     var controller = this;
-    var s =  'gyuHBJKAYO7UIHJNKS89UYHJASNM2#';
+    var s =  'iwjHAUISHIAUHSIUAUJSNW2#';
 
     $scope.events = {};
     $scope.loading = true;
